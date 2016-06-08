@@ -1,1 +1,6 @@
-
+.current_page_item a {
+  background-color: #ffff00;
+  color: blue;
+  
+  
+}
