@@ -1,6 +1,25 @@
+/* Mobile First Design: Navigation.css
+   Phone Portrait Styles
+   */
 .current_page_item a {
   background-color: #ffff00;
   color: blue;
   
   
+}
+ul.nav-pills>li {
+  float: none;
+  
+}
+
+   
+
+/* End of Phone Portrait */
+
+/* Medium width Styles (minimum 910px wide) */
+@media (min-width: 927px) {
+	ul.nav-pills>li {
+  float: left;
+  
+}
 }
