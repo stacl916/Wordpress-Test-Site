@@ -8,6 +8,10 @@ function theme_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array( $parent_style )
     );
+    	// Load Navigation.css
+    	wp_enqueue_style( 'Navigation', 		
+		get_stylesheet_directory_uri() . '/css/Navigation.css'
+	);
 	// Load Bootstrap CSS Files
 	wp_enqueue_style( 'bootstrap-min', 		
 		get_stylesheet_directory_uri() . '/css/bootstrap.min.css'
