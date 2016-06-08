@@ -11,7 +11,26 @@
  Tags:			bootstrap, multiple-columns, right-sidebar, responsive-layout
  Text Domain:	HTML5-Reset
 */
-
-.html5-child {
+/* Mobile First Design:
+   Phone Portrait Styles
+   */
+   .html5-child {
 	font-family: Consolas, monospace;
 }
+div.container {
+	width: 100%;
+	
+	
+	
+}
+
+/* End of Phone Portrait */
+
+/* Medium width Styles (minimum 910px wide) */
+@media (min-width: 927px) {
+	
+	div.container {
+	width: 910px;
+	}
+}
+
